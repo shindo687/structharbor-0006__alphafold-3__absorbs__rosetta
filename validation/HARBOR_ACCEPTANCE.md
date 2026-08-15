@@ -16,8 +16,8 @@ pristine host, or source archives, and that the locked AlphaFold 3 tree was
 unchanged except for the one allowed module.
 
 The final oracle ran against functional task commit
-`44724d3b0fd587d74de74154db7d55c9bcc20ee4`; the follow-up acceptance commit
-changes only this record.
+`44724d3b0fd587d74de74154db7d55c9bcc20ee4`; subsequent commits add only this
+acceptance record and the captured Harbor evidence under `validation/evidence/`.
 
 The near miss deliberately returned zero for the orientation-aware H-bond term.
 It failed the single-H-bond fixture, mixed public fixture, and seven matching
